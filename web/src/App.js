@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Header from './Header'
 import './global.css';
 import './App.css';
+import './Sidebar.css';
+import './Main.css';
 
 
 //component: Bloco isolado de HTML, CSS e JS O qual não interfere no restante da aplicação
@@ -38,7 +40,46 @@ function App() {
       </aside>
 
       <main>
+        <ul>
+        
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/7118953?s=460&v=4" alt="Cipolli" />
+              <div className="user-info">
+                <strong>Cipolli</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Desenvolvedor motha fullStack and freestyle workaround</p>
+            <a href="https://github.com/cipolli">Acessar perfil no Github</a>
+          </li>
+          
+        
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/7118953?s=460&v=4" alt="Cipolli" />
+              <div className="user-info">
+                <strong>Cipolli</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Desenvolvedor motha fullStack and freestyle workaround</p>
+            <a href="https://github.com/cipolli">Acessar perfil no Github</a>
+          </li>
+        
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars1.githubusercontent.com/u/7118953?s=460&v=4" alt="Cipolli" />
+              <div className="user-info">
+                <strong>Cipolli</strong>
+                <span>ReactJS, React Native, Node.js</span>
+              </div>
+            </header>
+            <p>Desenvolvedor motha fullStack and freestyle workaround</p>
+            <a href="https://github.com/cipolli">Acessar perfil no Github</a>
+          </li>
 
+        </ul>
       </main>
     </div>
 
